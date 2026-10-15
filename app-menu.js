@@ -33,7 +33,7 @@
     {
       name: "睡眠体調管理アプリ1",
       icon: "sleep1.png",
-      url: "https://kotom0919.github.io/Sleep-and-Mood-Tracking/"
+      url: "https://kotom0919.github.io/Sleep-and-Mood-Tracking-ver.1/"
     },
     {
       name: "睡眠体調管理アプリ2",
