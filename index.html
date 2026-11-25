@@ -89,6 +89,27 @@
       .card { gap: 9px; padding: 11px; }
     }
     @media (prefers-reduced-motion: reduce) { .card { transition: none; } }
+    .column-card {
+      padding: clamp(16px, 4vw, 26px);
+      border: 1px solid #dce6e0;
+      border-radius: 19px;
+      background: #fff;
+    }
+    .column-card p { margin-top: 6px; color: #4a5e53; line-height: 1.7; }
+    .pdf-link {
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      margin-top: 14px;
+      padding: 8px 16px;
+      border-radius: 9px;
+      background: #22533f;
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+    }
+    .pdf-link:hover { background: #153e30; }
+    .pdf-link:focus-visible { outline: 3px solid #287b58; outline-offset: 3px; }
   </style>
 </head>
 <body>
@@ -157,6 +178,14 @@
           </a>
         </li>
       </ul>
+    </section>
+    <section aria-labelledby="psychology-title">
+      <h2 id="psychology-title">心理学入門者の提案</h2>
+      <article class="column-card">
+        <h3>言語学習データを用いた復習時間の最小化に関する提案</h3>
+        <p>学んだ内容を一定の水準で維持しながら、合計の復習時間を短くする日程を試算しました。</p>
+        <a class="pdf-link" href="pdf/review-time-minimization.pdf" target="_blank" rel="noopener">PDFを読む</a>
+      </article>
     </section>
   </main>
 </body>
